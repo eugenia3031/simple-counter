@@ -4,7 +4,7 @@ import React from "react";
 import rigoImage from "../../img/rigo-baby.jpg";
 
 //create your first component
-const Home = () => {
+const Home = (props) => {
 	return (
 		<div className="text-center">
 			<h1 className="text-center mt-5">Hello Rigo!</h1>
@@ -19,7 +19,7 @@ const Home = () => {
 				<a href="http://www.4geeksacademy.com">4Geeks Academy</a>, with
 				love!
 			</p>
-		</div>
+		</div>		
 	);
 };
 
